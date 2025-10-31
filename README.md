@@ -1,16 +1,36 @@
-# storage_analyzer
+A simple Flutter app to analyze device storage by scanning folders like Images, Videos, Audio, and Downloads.
 
-A new Flutter project.
+Requests and handles storage permissions.
 
-## Getting Started
+Shows file count and total size for each category.
 
-This project is a starting point for a Flutter application.
+Allows user to scan folders manually.
 
-A few resources to get you started if this is your first Flutter project:
+Displays message “Can’t access Documents” for restricted folders (Android 13 +).
+flutter-storage-analyzer/
+  lib/
+    models/
+      - file_category_model.dart
+    presenters/
+      - storage_presenter.dart
+    views/
+      - storage_view.dart
+    - main.dart
+  android/
+    - AndroidManifest.xml
+  images/
+  -storage.jpg
+  pubspec.yaml
+  README.md
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ -- ## 🖼 Screenshots
+ <p align="center"> 
+   <img src="images/storage.jpg" width="250" /> 
+ </p>
+ --
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  1.Clone the repository
+  git clone https://github.com/daspranay918/flutter-storage-analyzer
+  2.Navigate to the project folder
+  cd flutter-storage-analyzer
+
