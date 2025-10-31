@@ -8,20 +8,27 @@ Allows user to scan folders manually.
 
 Displays message “Can’t access Documents” for restricted folders (Android 13 +).
 flutter-storage-analyzer/
-  lib/
-    models/
-      - file_category_model.dart
-    presenters/
-      - storage_presenter.dart
-    views/
-      - storage_view.dart
-    - main.dart
-  android/
-    - AndroidManifest.xml
-  images/
-  -storage.jpg
-  pubspec.yaml
-  README.md
+│
+├── lib/
+│   ├── models/
+│   │   └── file_category_model.dart
+│   ├── presenters/
+│   │   └── storage_presenter.dart
+│   ├── views/
+│   │   └── storage_view.dart
+│   └── main.dart
+│
+├── android/
+│   └── AndroidManifest.xml
+│
+├── images/
+│   ├── home_screen.png
+│   ├── scan_folder.png
+│   └── permission_denied.png
+│
+├── pubspec.yaml
+└── README.md
+
 
  -- ## 🖼 Screenshots
  <p align="center"> 
